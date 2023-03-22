@@ -1,0 +1,10 @@
+"""
+Anotações referente ao estudo do framework django.
+"""
+
+# 1 - Instalar o django pip install django
+# 2 - Criar o projeto django-admin startproject nome_do_projeto . (É a pasta principal)
+# 3 - Subir o servidor python manage.py runserver
+# 4 - Criar uma seção (app) python manage.py startapp nome_da_secao
+# 5 - Registrar a seção criada em setting e url (em setting no bloco INSTALLED_APPS colocar o caminho)
+# Ex - 'blog.apps.BlogConfig' (sendo que BlogConfig é a classe em apps da seção criada.)
